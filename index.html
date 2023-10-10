@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        body{
+            max-width: 800px;
+        }
+        .szines{
+            background-color: lightgreen;
+            /* width: calc((100% - 40px) / 3); */
+            margin-bottom: 30px;
+        }
+        .doboz{
+            border: 1px solid black;
+            min-height: 200px;
+            padding-bottom: 20px;
+        }
+        button{
+            text-align: center;
+            margin: 5px 0px;
+            background-color: lightgreen;
+            text-align: center;
+        }   
+        h2{
+            margin: 10px 0 0 0;
+        }
+        img{
+            max-height: 200px;
+        }
+        #email, #feliratkozom{
+            width: 100%;
+            margin: 2px auto;
+        }
+        #bezar{
+            margin: 0px 5% 0px 100%;
+        }
+        .kozep{
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="kozep">
+
+        <div class="container-fluid">
+            <h1>Ingyenes tanfolyamok</h1>
+        <div class="row gx-5 justify-content-evenly">
+            <div class="col-12 col-md-4 shadow-lg text-center szines">
+                    <img src="logo-css3.png" class="img-fluid "alt="">
+                    <p>CSS3</p>
+
+            </div>
+            <div class="col-12 col-md-4 shadow -lg text-center szines  ">
+                    <img src="logo-html5.png"class="img-fluid " alt="">
+                    <p>HTML5</p>
+
+            </div>
+            <div class="col-12 col-md-4 shadow -lg text-center szines  ">
+                    <img src="bootstrap.png" class="img-fluid "alt="">
+                    <p>BOOTSTRAP</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 doboz">
+                <p id="bezar">x</p>
+                <h2>Hírlevél</h2>
+                <p>Iratkozz fel a hírlevelünkre, hogy időben értesülj a webes technológia újdonságairól</p>
+                <input type="text" id="email"> <br>
+                <button id="feliratkozom">feliratkozom</button> <br>
+                <input type="checkbox" name="asd" id="asd"> 
+                <label   style="display: inline-block; text-align: right;">
+                    Elfogadom a feltételeket.
+                </label>
+            </div>
+        </div>
+        <h2>Következő fejezet</h2>
+    </div>
+</div>
+</body>
+</html>
